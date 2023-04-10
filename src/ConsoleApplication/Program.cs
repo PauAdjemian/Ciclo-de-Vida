@@ -23,7 +23,8 @@ namespace ConsoleApplication
             Train t1= new Train ("Last Train To London");
             Train t2= new Train ("Last Train To London");
             Train t3= new Train ("Runaway Train");
-            
+            t1=t2;
+            t2=t3;
 
             while (Program.count <= 100)
             {
